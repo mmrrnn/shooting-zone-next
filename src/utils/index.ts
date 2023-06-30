@@ -1,0 +1,1 @@
+export { sluggify } from './sluggify'

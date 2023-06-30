@@ -1,5 +1,5 @@
 {
-  "name": "next-netlify-starter",
+  "name": "shooting-zone-next",
   "version": "0.5.0",
   "private": true,
   "scripts": {
@@ -8,9 +8,22 @@
     "export": "next export"
   },
   "dependencies": {
-    "cypress": "^10.0.3",
+    "@emotion/react": "^11.11.0",
+    "@emotion/server": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.3",
     "next": "^12.1.5",
     "react": "^18.0.0",
-    "react-dom": "^18.0.0"
+    "react-dom": "^18.0.0",
+    "react-scroll": "^1.8.9",
+    "react-slick": "^0.29.0",
+    "slick-carousel": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "20.2.5",
+    "@types/react-scroll": "^1.8.7",
+    "@types/react-slick": "^0.23.10",
+    "typescript": "5.0.4"
   }
 }
